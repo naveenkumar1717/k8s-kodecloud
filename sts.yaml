@@ -5,6 +5,7 @@
     name: "mongo-db"
     namespace: "default"
   spec:
+    serviceName: mongo-db
     selector:
       matchLabels:
         app: "mongo-db"
