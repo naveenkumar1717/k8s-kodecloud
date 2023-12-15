@@ -9,6 +9,7 @@ metadata:
 spec:
   selector:
     role: api
+  type: NodePort  
   ports:
     - protocol: TCP
       port: 80
