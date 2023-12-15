@@ -61,6 +61,6 @@
         name: "mongodb"
         port: 27017
         nodePort: 30332
-    ClusterIp: None
+    clusterIp: None
     selector:
       app: "mongo-db"
